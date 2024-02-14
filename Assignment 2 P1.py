@@ -78,5 +78,25 @@ plt.ylabel('Voltage (V)')
 plt.title('Control Voltage Over Time')
 plt.legend(loc='upper right')
 
+# Define the universe of discourse for the error signal and control signal
+error_signal = ctrl.Antecedent(np.arange(-4, 4.1, 0.1), 'error')
+control_signal = ctrl.Consequent(np.arange(0, 48.1, 0.1), 'control')
+
+# Define the fuzzy sets and membership functions for error signal
+error_signal['Low'] = fuzz.trimf(error_signal.universe, [-4, -4, -1])
+error_signal['Medium'] = fuzz.trimf(error_signal.universe, [-2, 0, 2])
+error_signal['High'] = fuzz.trimf(error_signal.universe, [1, 4, 4])
+
+# Define the fuzzy sets and membership functions for control signal
+control_signal['Low'] = fuzz.trimf(control_signal.universe, [0, 0, 24])
+control_signal['Medium'] = fuzz.trimf(control_signal.universe, [16, 24, 32])
+control_signal['High'] = fuzz.trimf(control_signal.universe, [24, 48, 48])
+
+# Plot membership functions for error signal
+error_signal.view()
+
+# Plot membership functions for control signal
+control_signal.view()
+
 plt.tight_layout()
 plt.show()
