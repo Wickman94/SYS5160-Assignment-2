@@ -36,7 +36,6 @@ Generates plots for both the water height and control voltage throughout the sim
 
 # How It Works
 
-## Initialization
 Initialization: Defines the universe of discourse for the fuzzy logic controller, including the range of error signals and control signals.<br>
 Membership Functions: Specifies triangular and trapezoidal membership functions for categorizing the error signal and control signal into fuzzy sets.<br>
 Fuzzy Rules Definition: Creates rules that determine the control signal based on the current error signal's fuzzy classification.<br>
