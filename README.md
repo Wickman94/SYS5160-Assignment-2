@@ -60,5 +60,10 @@ Plots the simulation results, showing both the water height and control voltage 
 **Left Plot**: Shows the target and actual water heights over the simulation period, illustrating the effectiveness of the control strategy.<br>
 **Right Plot**: Displays the variation of control voltage over time, highlighting how the controller responds to changes in the water height.<br>
 
+## Membership function plots
+![image](https://github.com/Wickman94/SYS5160-Assignment-2/assets/158237302/f198563d-15ba-475e-987a-9f5db29a8add)
+
+![image](https://github.com/Wickman94/SYS5160-Assignment-2/assets/158237302/49cfc27b-9e0d-4a99-9a3f-6251a3a584ba)
+
 ## Conclusion
 This project demonstrates the application of fuzzy logic in controlling a water tank's height, showcasing its potential in handling complex, nonlinear control tasks with uncertainty and variability. The use of fuzzy logic allows for a flexible, intuitive approach to designing control systems for a wide range of applications.
