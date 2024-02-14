@@ -99,8 +99,8 @@ for step in range(1, total_steps):
 # Plotting the results
 plt.figure(figsize=(10, 5))
 plt.subplot(1, 2, 1)
-plt.plot(time_vector[1:], desired_height_timeline[1:], '-r', label='Target Height')
-plt.plot(time_vector[1:], actual_heights, '-g', label='Actual Height')
+plt.plot(time_vector[1:], desired_height_timeline[1:], '-b', label='Target Height')
+plt.plot(time_vector[1:], actual_heights, '-r', label='Actual Height')
 plt.xlabel('Time (s)')
 plt.ylabel('Height (m)')
 plt.legend(loc='best')
