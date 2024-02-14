@@ -46,11 +46,12 @@ Voltage Adjustment and Tracking: Applies the control voltage, ensuring it stays 
 # Result
 ## P1
 
-![image](https://github.com/Wickman94/SYS5160-Assignment-2/assets/158237302/00ce47b2-69ea-4d9e-b2a2-45b69337349e)
+![image](https://github.com/Wickman94/SYS5160-Assignment-2/assets/158237302/dc52813c-5997-4a45-bf3e-7bfd52a3e570)
+
 
 ## P2
 
-![image](https://github.com/Wickman94/SYS5160-Assignment-2/assets/158237302/15ecff56-6a5a-4985-8ef4-b7447082df1f)
+![image](https://github.com/Wickman94/SYS5160-Assignment-2/assets/158237302/3bb56c5c-f709-4d29-9bc3-2e300132218a)
 
 
 
