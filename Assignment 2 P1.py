@@ -64,7 +64,7 @@ for time_index in range(len(simulation_time)-1):
 plt.figure(figsize=(12, 5))
 plt.subplot(1, 2, 1)
 plt.plot(simulation_time[:-1], np.ones_like(simulation_time[:-1]) * DesiredHeight, 'k--', label='Target Height')
-plt.plot(simulation_time[:-1], heights, 'r', linewidth=2, label='Actual Height')
+plt.plot(simulation_time[:-1], heights, 'm', linewidth=2, label='Actual Height')
 plt.legend(loc='upper right')
 plt.xlabel('Time (s)')
 plt.ylabel('Height (m)')
